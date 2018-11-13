@@ -1,0 +1,52 @@
+.background{
+    height:100vh;
+    background-image: url("../Images/OG.background\ -\ Copy.NotFlipped.jpg");
+    background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+    background-size:  cover;
+}
+
+.nav{
+    position:fixed;
+    color:black;
+    font-size:25px;
+    align-content: center;
+    text-align:center;
+}
+
+.welcome{
+    align-content: center;
+    color: black;
+    padding-top:10%;
+    padding-left:30%;
+    text-align: center;
+    padding-bottom: 33.55%;
+}
+
+.name{
+    margin: 0% !important;
+    font-size:60px;
+    align-content: center;
+    text-align: center;
+}
+
+.about{
+    height:1000px;
+    background-image:url("../Images/sCPGJKu.jpg");
+    background-position: center center;
+	background-repeat:  no-repeat;
+	background-attachment: fixed;
+    background-size:  cover;
+    color:white;
+}
+
+.technologies{
+    padding-left:55%;
+    padding-top:10%;
+}
+
+.footer{
+    text-align:center;
+    padding-top:4%;
+}
