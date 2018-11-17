@@ -11,8 +11,19 @@
     position:fixed;
     color:black;
     font-size:25px;
-    align-content: center;
-    text-align:center;
+    width:100%;
+}
+
+.home{
+    padding: 0px 15px 0px 15px;
+}
+
+.projects{
+    padding: 0px 15px 0px 15px;
+}
+
+.contact{
+    padding: 0px 15px 0px 15px;
 }
 
 .welcome{

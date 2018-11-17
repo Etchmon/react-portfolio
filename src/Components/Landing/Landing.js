@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../Landing/Landing.css";
+import {Link} from "react-router-dom";
 
 class Landing extends Component {
 
@@ -7,15 +8,9 @@ class Landing extends Component {
         return (
             <div className="background container">
                 <div className="nav">
-                    <a className="home" href="">
-                        James Etchells
-                    </a>
-                    <a className="projects">
-                        Projects
-                    </a>
-                    <a className="contact">
-                        Contact
-                    </a>
+                    <Link path="exact" to="/">Home</Link>
+                    <Link path="exact" to="/Projects">Projects</Link>
+                    <Link path="exact" to="/Contact">Contact</Link>
                 </div>
                 <div className="welcome">
                     <h1 className="name">James Etchells</h1>
