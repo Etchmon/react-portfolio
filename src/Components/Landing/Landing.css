@@ -1,17 +1,10 @@
 .background{
-    height:100vh;
+    height:1100px;
     background-image: url("../Images/OG.background\ -\ Copy.NotFlipped.jpg");
     background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
     background-size:  cover;
-}
-
-.nav{
-    position:fixed;
-    color:black;
-    font-size:25px;
-    width:100%;
 }
 
 .home{
@@ -32,7 +25,8 @@
     padding-top:10%;
     padding-left:30%;
     text-align: center;
-    padding-bottom: 33.55%;
+    padding-bottom: 30%;
+    font-family: 'Merienda One', cursive;
 }
 
 .name{
@@ -40,6 +34,19 @@
     font-size:60px;
     align-content: center;
     text-align: center;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.bio {
+    padding: 0px 25% 0px 25%;
+}
+
+.links {
+    padding-top:1%;
+}
+
+.links a{
+    padding: 0 2% 0 2%;
 }
 
 .about{
@@ -55,9 +62,10 @@
 .technologies{
     padding-left:55%;
     padding-top:10%;
+    font-family: 'Source Code Pro';
 }
 
 .footer{
     text-align:center;
-    padding-top:4%;
+    padding-top:2%;
 }

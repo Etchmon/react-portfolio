@@ -1,20 +1,22 @@
 import React, { Component } from "react";
 import "../Landing/Landing.css";
-import {Link} from "react-router-dom";
+import Nav from "../Nav";
 
 class Landing extends Component {
 
     render() {
         return (
             <div className="background container">
-                <div className="nav">
-                    <Link path="exact" to="/">Home</Link>
-                    <Link path="exact" to="/Projects">Projects</Link>
-                    <Link path="exact" to="/Contact">Contact</Link>
-                </div>
+                <Nav></Nav>
                 <div className="welcome">
                     <h1 className="name">James Etchells</h1>
-                    <p>Full-Stack Web Developer</p>
+                    <h2>Full-Stack Web Developer</h2>
+                    <p className="bio">Improvise. Adapt. Overcome. Silly words from a movie, but great words to live by. In any Job you work in these days, communitcation is key, but morale is even more important. This ideal of </p>
+                    <div className="links">
+                        <a>GitHUb</a>
+                        <a>LinkedIn</a>
+                        <a>Gmail</a>
+                    </div>
                 </div>
                 <div className="about">
                     <div className="technologies">
