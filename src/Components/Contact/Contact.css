@@ -10,11 +10,10 @@
 #contact-form{
     padding:5% 60% 0 10%;
     align-content: center;
-    text-align:center;
 }
 
 #submit{
     background-color:blue;
     color:white;
-    height:50px;
+    border:none;
 }
