@@ -7,21 +7,16 @@ class Contact extends Component {
         return (
             <div className="contactBody">
                 <Nav></Nav>
-                {/* <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
-                    <div className="form-group">
-                        <label for="name">Name</label>
-                        <input type="text" className="form-control" id="name" />
-                    </div>
-                    <div className="form-group">
-                        <label for="exampleInputEmail1">Email address</label>
-                        <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
-                    </div>
-                    <div className="form-group">
-                        <label for="message">Message</label>
-                        <textarea className="form-control" rows="5" id="message"></textarea>
-                    </div>
-                    <button type="submit" className="btn btn-primary">Submit</button>
-                </form> */}
+                <form id="contact-form" method="POST">
+                    <h1>Shoot me an Email!</h1>
+                    <h2>Name</h2>
+                    <input type="text"></input>
+                    <h2>Email</h2>
+                    <input type="text"></input>
+                    <h2>Message</h2>
+                    <textarea rows="5" width="200px"></textarea>
+                    <div><button id="submit" type="submit">Submit</button></div>
+                </form>
             </div>
         )
     }

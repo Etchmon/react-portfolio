@@ -1,6 +1,6 @@
 .projectBody{
     height:100vh;
-    background-image: url("../Images/LpHPPwv.jpg");
+    background-image: url("../Images/Catroll.jpg");
     background-position: center center;
 	background-repeat:  no-repeat;
 	background-attachment: fixed;
@@ -19,7 +19,8 @@
 .moreWork{
     text-align: center;
     color: white;
-    font-family: 'Merienda One', cursive;
+    font-family: 'Source Code Pro';
+    
 }
 
 .wrapper{
@@ -77,5 +78,20 @@
 
 .dotaStreams:hover{
     opacity: .5;
-    content: 'Hello';
+}
+
+.gHub{
+    color:whitesmoke;
+}
+
+.gHub:hover{
+    color: blue;
+}
+
+.gHub:visited{
+    text-decoration: none;
+}
+
+.footer{
+    color:white;
 }

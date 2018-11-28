@@ -13,7 +13,7 @@ class Projects extends Component {
                 <div className="wrapper">
                     <div className="projectCard">
                         <h2>Dota Streams</h2>
-                        <div className="dotaStreams"></div>
+                        <Link path="exact" to="/G" target="_blank"><div className="dotaStreams"></div></Link>
                         <p>A website that brings you the top 10 live dota games, and allows you to switch between games with ease.</p>
                         <ul>
                             <h2>Technologies Used</h2>
@@ -22,7 +22,7 @@ class Projects extends Component {
                     </div>
                     <div className="projectCard2">
                         <h2>Dota Streams</h2>
-                        <div className="dotaStreams"></div>
+                        <Link path="exact" to="/G" target="_blank"><div className="dotaStreams"></div></Link>
                         <p>A website that brings you the top 10 live dota games, and allows you to switch between games with ease.</p>
                         <ul>
                             <h2>Technologies Used</h2>
@@ -31,7 +31,7 @@ class Projects extends Component {
                     </div>
                     <div className="projectCard3">
                         <h2>Dota Streams</h2>
-                        <div className="dotaStreams"></div>
+                        <Link path="exact" to="/G" target="_blank"><div className="dotaStreams"></div></Link>
                         <p>A website that brings you the top 10 live dota games, and allows you to switch between games with ease.</p>
                         <ul>
                             <h2>Technologies Used</h2>
@@ -39,7 +39,7 @@ class Projects extends Component {
                         </ul>
                     </div>
                 </div>
-                <div className="moreWork"><h1>Find more of my work on <a href="https://www.github.com">GitHub!</a></h1></div>
+                <div className="moreWork"><h1>Find more of my work on <a className="gHub" href="https://www.github.com">GitHub!</a></h1></div>
                 <div className="footer">
                     <p>&copy; James Etchells</p>
                 </div>
