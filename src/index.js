@@ -13,7 +13,8 @@ ReactDOM.render(
             <Route exact path="/" component={App}></Route>
             <Route exact path="/Projects" component={Projects}></Route>
             <Route exact path="/Contact" component={Contact}></Route>
-            <Route path='/G' component={() => window.location = 'https://www.google.com'}/>
+            <Route path='/Github' component={() => window.location = 'https://github.com/Etchmon'}/>
+            <Route path='/LinkedIn' component={() => window.location = 'https://www.linkedin.com/in/james-etchells-240816164/'}/>
         </div>
     </Router>,
     document.getElementById('root'));

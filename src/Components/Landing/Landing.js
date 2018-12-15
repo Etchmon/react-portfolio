@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import {Link} from 'react-router-dom';
 import "../Landing/Landing.css";
 import Nav from "../Nav";
 
@@ -13,10 +14,11 @@ class Landing extends Component {
                     <h2>Full-Stack Web Developer</h2>
                     <p className="bio">Improvise. Adapt. Overcome. Silly words from a movie, but great words to live by. In any Job you work in these days, communitcation is key, but morale is even more important. This ideal of </p>
                     <div className="links">
-                        <a>GitHUb</a>
-                        <a>LinkedIn</a>
-                        <a>Gmail</a>
+                        <Link path="exact" to="/Github">Github</Link>
+                        <Link path="exact" to="/LinkedIn">LinkedIn</Link>
+                        <a href="www.gmail.com">UpWork</a>
                     </div>
+                    <p>Etch.rush@gmail.com</p>
                 </div>
                 <div className="about">
                     <div className="technologies">
