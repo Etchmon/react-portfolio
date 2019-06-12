@@ -1,4 +1,4 @@
-.contactBody{
+body{
     height:100vh;
     background-image: url("../Images/Nwq7vEv.jpg");
     background-position: center center;
@@ -7,13 +7,20 @@
     background-size:  cover;
 }
 
-#contact-form{
-    padding:5% 60% 0 10%;
-    align-content: center;
+.contact {
+    width: 100%;
+    margin: 0 auto;
+    background-color: orangered;
+    height: 60vh;
+    margin-top: 200px;
 }
 
-#submit{
-    background-color:blue;
-    color:white;
-    border:none;
+.contact-title {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-info {
+    margin: 0 auto;
+    text-align: center;
 }
