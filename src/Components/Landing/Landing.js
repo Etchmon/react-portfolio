@@ -8,7 +8,6 @@ class Landing extends Component {
     render() {
         return (
             <div className="background container">
-                <Nav></Nav>
                 <div className="welcome">
                     <h1 className="name">James Etchells</h1>
                     <h2>Full-Stack Web Developer</h2>
