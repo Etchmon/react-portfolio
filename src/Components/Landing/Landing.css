@@ -29,6 +29,7 @@
     font-family: 'Merienda One', cursive;
 }
 
+
 .name{
     margin: 0% !important;
     font-size:60px;
@@ -37,16 +38,36 @@
     font-family: 'Kaushan Script', cursive;
 }
 
-.bio {
-    padding: 0px 25% 0px 25%;
+p {
+    background-color:rgba(#121212, 0.8);
 }
 
-.links {
+.bio {
+    padding: 2vh 2vh;
+    margin: 0 30vh;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.links,
+.link:visited
+ {
     padding-top:1%;
+    margin: 0 30vh;
+    background-color: rgba(0,0,0,0.4);
 }
 
 .links a{
     padding: 0 2% 0 2%;
+    text-decoration: none;
+    color:#fff;
+}
+
+.gmail {
+    margin: 0 30vh;
+    padding-top: 2vh;
+    background-color: rgba(0,0,0,0.4);
+    color: #fff;
 }
 
 .about{
@@ -57,6 +78,7 @@
 	background-attachment: fixed;
     background-size:  cover;
     color:white;
+    margin-top: -20vh;
 }
 
 .technologies{
