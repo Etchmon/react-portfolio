@@ -15,6 +15,7 @@ ReactDOM.render(
             <Route exact path="/Contact" component={Contact}></Route>
             <Route path='/Github' component={() => window.location = 'https://github.com/Etchmon'}/>
             <Route path='/LinkedIn' component={() => window.location = 'https://www.linkedin.com/in/james-etchells-240816164/'}/>
+            <Route path='/L' component={() => window.location = 'https://www.linkedin.com/in/james-etchells-240816164/'}/>
         </div>
     </Router>,
     document.getElementById('root'));
